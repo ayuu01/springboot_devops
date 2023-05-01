@@ -1,1 +1,18 @@
 
+pipeline {
+    agent any
+    
+
+    stages {
+        stage('clean and install') {
+            steps {
+               bat 'mvn clean -f SpringBootAssignment5/pom.xml'
+            }
+        }
+        stage('Package') {
+            steps {
+               bat 'mvn package -f SpringBootAssignment5/pom.xml'
+            }
+        }
+    }
+}
