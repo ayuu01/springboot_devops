@@ -23,8 +23,6 @@ pipeline {
                    bat 'docker push ayuu01/ayushi:latest'
                }
             }
-        }
-       
-        
+        } 
     }
 }
