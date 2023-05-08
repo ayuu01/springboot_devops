@@ -9,6 +9,13 @@ pipeline {
                bat 'mvn clean -f SpringBootDevops/pom.xml'
             }
         }
+         stage('Build Docker Image') {
+            steps {
+               script {
+                   bat 'docker build -t ayuu01/devops-assignment -f ./Dockerfile .'
+               }
+            }
+        }
      
     }
 }
