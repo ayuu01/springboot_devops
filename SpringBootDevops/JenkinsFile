@@ -15,14 +15,6 @@ pipeline {
                }
             }
         }
-        stage('Push Image to Hub') {
-            steps {
-               script {
-                   bat 'docker login --username ayuu01 --password docker_01'
-                   bat 'docker tag devops/devops-assignment:latest ayuu01/ayushi:latest'
-                   bat 'docker push ayuu01/ayushi:latest'
-               }
-            }
-        } 
+       
     }
 }
