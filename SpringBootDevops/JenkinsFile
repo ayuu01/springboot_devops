@@ -11,7 +11,11 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                script {
-                      bat 'mvn package -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                    
                }
             }
         }
