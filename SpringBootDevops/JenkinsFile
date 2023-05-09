@@ -33,6 +33,22 @@ pipeline {
                   bat 'mvn clean -f SpringBootDevops/pom.xml'
                   bat 'mvn clean -f SpringBootDevops/pom.xml' 
                   bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                  bat 'mvn clean -f SpringBootDevops/pom.xml' 
+                  bat 'mvn clean -f SpringBootDevops/pom.xml'
+                    
                     
                }
             }
